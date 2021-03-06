@@ -8,8 +8,8 @@
 		<version>2.4.3</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>sushi</groupId>
-	<artifactId>sushi</artifactId>
+	<groupId>sushi-restaurant</groupId>
+	<artifactId>restaurant</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>sushi</name>
 	<description>Restaurant project</description>
