@@ -1,0 +1,12 @@
+
+
+#navbar ul {
+    list-style-type: none;
+    background-color: rgb(168, 33, 33);
+    overflow: hidden;
+}
+
+#navbar li {
+    float: left;
+    color: white;
+}
