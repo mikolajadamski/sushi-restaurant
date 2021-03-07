@@ -1,0 +1,3 @@
+CREATE TABLE IF NOT EXISTS navbar_item (
+  name VARCHAR(20) PRIMARY KEY
+);
