@@ -1,10 +1,15 @@
 import React from 'react';
 import './Header.css';
 import Navbar from './Navbar';
+import Logo from './Logo';
 
 const Header = (props) => {
     return (
-        <Navbar />
+        <div class="header">
+            <Logo />
+            <Navbar />
+        </div>
+        
     )
 }
 

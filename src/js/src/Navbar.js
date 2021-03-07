@@ -3,7 +3,7 @@ import './Navbar.css';
 
 const Navbar = (props) => {
     return (
-        <div id="navbar">
+        <div class="navbar">
             <ul>
                 <li>
                     Home
@@ -11,7 +11,7 @@ const Navbar = (props) => {
                 <li>MOnke</li>
             </ul>
         </div>
-    )
+    );
 }
 
 export default Navbar;

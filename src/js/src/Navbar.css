@@ -1,12 +1,15 @@
+.navbar{
+    margin-top: -1em;
+}
 
-
-#navbar ul {
+.navbar ul {
     list-style-type: none;
     background-color: rgb(168, 33, 33);
     overflow: hidden;
 }
 
-#navbar li {
+.navbar li {
     float: left;
     color: white;
+    padding: 10px;
 }

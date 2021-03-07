@@ -1,0 +1,22 @@
+.logo {
+    background-color: black;
+    height: 320px;
+}
+
+.title {
+    background-color: rgb(168, 33, 33);
+    margin: auto;
+    width: 15%;
+    height: 80%;
+    
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+.letter {
+    text-align: center;
+    margin: 2px;
+    font-size: 16px;
+    font-family: 'Rock Salt', cursive;
+    font-weight: bolder;
+}
