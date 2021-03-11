@@ -1,13 +1,12 @@
 package pl.sushi.NavbarItem;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 @Entity
 @Table
 public class NavbarItem {
     @Id
+
     private String name;
 
     public NavbarItem() {
@@ -25,3 +24,4 @@ public class NavbarItem {
         this.name = name;
     }
 }
+
