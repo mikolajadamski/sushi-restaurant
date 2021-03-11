@@ -1,0 +1,23 @@
+INSERT INTO category VALUES (DEFAULT, 2,'nigiri');
+INSERT INTO category VALUES (DEFAULT, 6, 'hosomaki');
+INSERT INTO category VALUES (DEFAULT, 4, 'mini uramaki');
+INSERT INTO category VALUES (DEFAULT, 4, 'california');
+INSERT INTO category VALUES (DEFAULT, 4, 'hot california rolls');
+INSERT INTO category VALUES (DEFAULT, 6,'futomaki');
+INSERT INTO category VALUES (DEFAULT, 6,'futo tempura maki');
+INSERT INTO category VALUES (DEFAULT, 6,'datemaki');
+INSERT INTO category VALUES (DEFAULT, 2,'sashimi rolls');
+INSERT INTO category VALUES (DEFAULT, 0,'sashimi');
+INSERT INTO category VALUES (DEFAULT, 0,'sety - zestawy');
+INSERT INTO category VALUES (DEFAULT, 0,'przystawki');
+INSERT INTO category VALUES (DEFAULT, 0,'tempury');
+INSERT INTO category VALUES (DEFAULT, 0,'zupy');
+INSERT INTO category VALUES (DEFAULT, 0,'dania główne');
+INSERT INTO category VALUES (DEFAULT, 0,'desery');
+INSERT INTO category VALUES (DEFAULT, 0,'menu dziecięce');
+INSERT INTO category VALUES (DEFAULT, 0,'napoje zimne');
+INSERT INTO category VALUES (DEFAULT, 0,'piwo');
+INSERT INTO category VALUES (DEFAULT, 0,'wino');
+INSERT INTO category VALUES (DEFAULT, 0,'herbaty');
+INSERT INTO category VALUES (DEFAULT, 0,'kawa');
+
