@@ -5,9 +5,9 @@ import Logo from './Logo';
 
 const Header = (props) => {
     return (
-        <div class="header">
+        <div className="header">
             <Logo />
-            <Navbar />
+            <Navbar navbarItems={props.navbarItems} />
         </div>
         
     )

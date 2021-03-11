@@ -1,35 +1,24 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import './App.css';
-import Header from './Header';
-import { getAllNavbarItems } from './client';
+import Header from './header/Header';
+import fetch from 'unfetch';
 
+function App(props) {
 
-
-
-const App = (props) => {
-
-  let isFetching = useRef(null);
-  let navbarItems = {};
+  const [navbarItems, setNavbarItems] = useState([]);
 
   useEffect(() => {
-    isFetching = true;
-    getAllNavbarItems()
-      .then(response => response.json())
-      .then(items => {
-        isFetching = false;
-        navbarItems = items;
-      })
-      .catch(error => {
-        console.log(error.error.message);
-      });
+    fetch('/api/navbar_items')
+    .then(resp => resp.json()
+    .then(navbarItems => setNavbarItems(navbarItems)
+    ))},[]);
   
-  }, []);
+    console.log(navbarItems);
 
-  return (
-    <Header navbarItems={ navbarItems }/>
-  );
+  return <div>
+    <Header navbarItems={navbarItems} />
+    </div>;
+
 }
-
-
 
 export default App;

@@ -2,6 +2,7 @@
 
 const checkStatus = response => {
     if(response.ok) {
+        console.log(response);
         return response;
     }
     else {
@@ -9,11 +10,12 @@ const checkStatus = response => {
         Error.response = response;
         response.json().then(e => {
             error.error = e;
+            console.log(error.error);
         });
         return Promise.reject(error);
     }
 }
 
 export const getAllNavbarItems = () => {
-    fetch('api/v1/navbar_items').then(checkStatus)
+    fetch('api/navbar_items').then(checkStatus)
 }

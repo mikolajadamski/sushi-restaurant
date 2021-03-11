@@ -1,15 +1,17 @@
-.navbar{
-    margin-top: -1em;
-}
 
 .navbar ul {
     list-style-type: none;
     background-color: rgb(168, 33, 33);
     overflow: hidden;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
 }
 
 .navbar li {
-    float: left;
     color: white;
     padding: 10px;
+    display:inline-block;
+    margin-block-start: auto;
+    font-weight: 600;
 }
