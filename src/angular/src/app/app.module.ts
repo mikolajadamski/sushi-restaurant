@@ -5,16 +5,21 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarItemComponent } from './navbar-item/navbar-item.component';
+import { MenuComponent } from './menu/menu.component';
+import { MatchesCategoryPipe } from './matchesCategory';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavbarItemComponent
+    NavbarItemComponent,
+    MenuComponent,
+    MatchesCategoryPipe
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

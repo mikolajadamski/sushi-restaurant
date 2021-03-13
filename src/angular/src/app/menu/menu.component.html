@@ -1,0 +1,13 @@
+<div class="menu">
+    <ul>
+        <li *ngFor="let category of categories">
+            {{category.name}}
+            <ul>
+                <li
+                *ngFor="let product of products | matchesCategory:this.category">
+                    {{product.name}}                  
+                </li>
+            </ul>
+        </li>
+    </ul>
+</div>
